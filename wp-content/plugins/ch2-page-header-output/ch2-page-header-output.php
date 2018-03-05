@@ -9,7 +9,7 @@ Author URI:
 LicenseL GPLv2
 */
 
-add_action( 'wp-head', 'ch2pho_page_header_output' );
+add_action( 'wp_head', 'ch2pho_page_header_output' );
 
 function ch2pho_page_header_output() { ?>
 	<script>
